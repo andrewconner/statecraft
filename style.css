@@ -1,32 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f7fafc; /* off-white blue background */
+    color: #333333;
     line-height: 1.6;
 }
 
 header {
-    background: #004b8d;
-    color: #fff;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 2.8rem;
 }
 
 main {
+    max-width: 700px;
+    margin: 0 auto;
     padding: 2rem;
     text-align: center;
 }
 
 main h2 {
-    color: #004b8d;
-    font-size: 2rem;
+    font-family: 'Lora', serif;
+    color: #002855; /* dark blue */
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
 
 footer {
@@ -35,11 +46,10 @@ footer {
 }
 
 a {
-    color: #004b8d;
+    color: #0056b3;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
