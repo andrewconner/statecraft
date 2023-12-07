@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Hedvig+Letters+Serif:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Hedvig+Letters+Serif:wght@300;400;700&display=swap');
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -6,36 +6,38 @@ body {
     padding: 0;
     color: #333333;
     line-height: 1.6;
+    background: url(bg.webp) no-repeat center center fixed;
 }
 
 .gradient {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    filter: contrast(140%) brightness(160%);
+    filter: contrast(200%) brightness(240%);
     background: 
-      linear-gradient(328deg, rgba(0, 43, 199, 0.6), rgba(158,199,255,0.1)),
+      linear-gradient(328deg, rgba(38, 52, 102, 0.7), rgba(161, 170, 250, 0.7)),
       url("data:image/svg+xml,%3Csvg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.95' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
     z-index: -1;
 }
 
 header {
-    padding: 8rem 0 0;
+    padding: 12rem 0 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 4.8rem;
+    text-align: left;
 }
 
 main {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 0 30px;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 main h2 {
